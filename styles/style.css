@@ -33,7 +33,7 @@ main {
 .menu-bar {
     display: flex;
     justify-content: space-between;
-    margin-left: 156px;
+    padding: 60px;
 }
 
 button {
@@ -125,16 +125,13 @@ h2 {
 /*------------
  Highlight section
  ----------------*/
-.content {
-    width: 1250px;
-    background-color: #FFFFFF;
-    margin-left: 150px;
-}
+
+
 
 .highlight-section {
     display: flex;
-    margin-top: 80px;
     align-items: center;
+    margin: 120px;
 
 }
 
@@ -194,7 +191,9 @@ h2 {
 /* ------------------
  Media Query
 ----------------- */
-@media only screen and (max-width:662px) {
+
+/* Mobile device  */
+@media only screen and (max-width:688px) {
     .main-content {
         width: 662px;
         background-color: #FFFFFF;
@@ -202,7 +201,6 @@ h2 {
 
     .top-banner {
         display: flex;
-        margin-left: 156px;
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -223,21 +221,29 @@ h2 {
         grid-template-columns: repeat(1, 1fr)
     }
 
+    .player {
+        box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+        padding: 15px;
+        margin-top: 27px;
+        margin-left: 70px;
+    }
+
+    .highlight-info {
+        margin-left: 20px;
+    }
+
     .highlight-section {
         display: flex;
         margin-top: 80px;
         flex-wrap: wrap;
+
     }
 
     .highlight-feature-image img {
-        width: 347px;
+        width: 90%;
         height: 307px;
-
-    }
-
-    .content {
-        width: 450px;
-        background-color: #FFFFFF;
+        margin-left: 30px;
+        margin-top: 20px;
 
     }
 
@@ -251,5 +257,24 @@ h2 {
         width: 80%;
         height: 259.17px;
 
+    }
+
+    .footer-img img {
+        width: 80%;
+        height: 110px;
+    }
+}
+
+/* tablet device  */
+@media only screen and (min-width:662px) and (max-width:992px) {
+    .main-content {
+        width: 992px;
+        background-color: #FFFFFF;
+    }
+
+    .players {
+        margin: 200px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr)
     }
 }
