@@ -34,8 +34,6 @@ main {
     display: flex;
     justify-content: space-between;
     margin-left: 156px;
-
-
 }
 
 button {
@@ -60,6 +58,7 @@ i {
 
 .top-banner {
     display: flex;
+    margin-left: 140px;
 
 }
 
