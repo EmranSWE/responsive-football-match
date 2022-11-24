@@ -50,7 +50,8 @@ mdemran.swe@gmail.com
 
 ## Screenshots
 
-![App Screenshot](https://i.ibb.co/vj4Y3nZ/screencapture-emranswe-github-io-responsive-football-match-2022-11-24-12-50-13.png)
+![App Screenshot](https://i.ibb.co/C7GrzZT/football.png)
+![App Screenshot](https://i.ibb.co/mJZThC9/Football-1.png)
 
 
 ## Contributing
@@ -73,4 +74,5 @@ Please adhere to this project's `code of conduct`.
 MIT License
 
 Copyright (c) Emran 2022
+
 
